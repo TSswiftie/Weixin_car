@@ -1,0 +1,87 @@
+<!--pages/select/select.wxml-->
+<view class='top'>
+  <view class='condition'>
+    <view class='all-cars'>
+      <view>条件选车 (9356车型) ></view> 
+    </view>
+    <i class="iconfont icon-sousuo"></i>
+  </view>
+  <view class='price-type clearfix'>
+    <view class='sort-item'>
+      <text>5-8万</text>
+    </view>
+    <view class='sort-item'>
+      <text>8-15万</text>
+    </view>
+    <view class='sort-item'>
+      <text>15-20万</text>
+    </view>
+    <view class='sort-item'>
+      <text>25-30万</text>
+    </view>
+    <view class='sort-item'>
+      <text>轿车</text>
+    </view>
+    <view class='sort-item'>
+      <text>SUV</text>
+    </view>
+    <view class='sort-item'>
+      <text>7座</text>
+    </view>
+    <view class='sort-item'>
+      <text>紧凑型车</text>
+    </view>
+  </view>
+</view>
+<view class='divider'></view>
+<view class='hot-brand'>
+  <view class='title'>热门品牌</view>
+  <view class='brand clearfix'>
+    <block>
+      <view class='nav-item'>
+        <image lazy-load mode="aspectFill"  src="http://127.0.0.1:3000/img/brand/VW.jpg"></image>
+        <text>大众</text>
+      </view>
+      <view class='nav-item'>
+        <image lazy-load mode="aspectFill"  src="http://127.0.0.1:3000/img/brand/Honda.jpg"></image>
+        <text>本田</text>
+      </view>
+      <view class='nav-item'>
+        <image lazy-load mode="aspectFill"    src="http://127.0.0.1:3000/img/brand/Ford.jpg"></image>
+        <text>福特</text>
+      </view>
+      <view class='nav-item'>
+        <image lazy-load mode="aspectFill"  src="http://127.0.0.1:3000/img/brand/TOYOTA.jpg"></image>
+        <text>丰田</text>
+      </view>
+      <view class='nav-item'>
+        <image lazy-load mode="aspectFill"  src="http://127.0.0.1:3000/img/brand/Audi.jpg"></image>
+        <text>奥迪</text>
+      </view>
+      <view class='nav-item'>
+        <image lazy-load mode="aspectFill"  src="http://127.0.0.1:3000/img/brand/Nissan.jpg"></image>
+        <text>尼桑</text>
+      </view>
+      <view class='nav-item'>
+        <image lazy-load mode="aspectFill"  src="http://127.0.0.1:3000/img/brand/HYUNDAI.jpg"></image>
+        <text>现代</text>
+      </view>
+      <view class='nav-item'>
+        <image lazy-load mode="aspectFill"  src="http://127.0.0.1:3000/img/brand/BMW.jpg"></image>
+        <text>宝马</text>
+      </view>
+      <view class='nav-item'>
+        <image style='width:70rpx;height:40rpx;margin-bottom:30rpx;' lazy-load mode="aspectFill"  src="http://127.0.0.1:3000/img/brand/jili.jpg"></image>
+        <text>吉利汽车</text>
+      </view>
+      <view class='nav-item'>
+        <image style='width:70rpx;height:40rpx;margin-bottom:30rpx;' lazy-load mode="aspectFill"  src="http://127.0.0.1:3000/img/brand/benz.jpg"></image>
+        <text>奔驰</text>
+      </view>
+    </block>
+  </view>
+</view>
+<view class='divider'></view>
+<view class='view-records'>
+  <view class='title'>浏览记录</view>
+</view>

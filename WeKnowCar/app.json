@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/select/select",
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/news/news"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "购车宝典",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#d81e06",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "icon/shouye0.png",
+        "selectedIconPath": "icon/shouye.png"
+      },
+      {
+        "pagePath": "pages/select/select",
+        "text": "选车",
+        "iconPath": "icon/qiche0.png",
+        "selectedIconPath": "icon/qiche.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "咨询",
+        "iconPath": "icon/zixun-copy0.png",
+        "selectedIconPath": "icon/zixun-copy.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "icon/wodedangxuan0.png",
+        "selectedIconPath": "icon/wodedangxuan.png"
+      }
+    ]
+  }
+}
